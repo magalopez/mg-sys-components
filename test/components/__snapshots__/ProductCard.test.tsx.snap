@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProductCard should show ProductCard 1`] = `
+<div
+  className="productCard "
+>
+  <img
+    alt="Product Image"
+    className="productImg "
+    src="https://product-card-image-hellow.jpg"
+  />
+  <span
+    className="productDescription "
+  >
+    ProductCard Hellow
+  </span>
+  <div
+    className="buttonsContainer "
+  >
+    <button
+      className="buttonMinus"
+      onClick={[Function]}
+    >
+      -
+    </button>
+    <div
+      className="countLabel"
+    >
+      0
+    </div>
+    <button
+      className="buttonAdd false"
+      disabled={false}
+      onClick={[Function]}
+    >
+      +
+    </button>
+  </div>
+</div>
+`;

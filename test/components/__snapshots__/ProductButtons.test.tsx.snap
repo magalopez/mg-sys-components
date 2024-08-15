@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProductButtons should show Buttons 1`] = `
+<div
+  className="buttonsContainer custom-buttons"
+>
+  <button
+    className="buttonMinus"
+    onClick={[Function]}
+  >
+    -
+  </button>
+  <div
+    className="countLabel"
+  />
+  <button
+    className="buttonAdd false"
+    disabled={false}
+    onClick={[Function]}
+  >
+    +
+  </button>
+</div>
+`;
+
+exports[`ProductButtons should show product buttons  1`] = `
+<div
+  className="productCard "
+>
+  <div
+    className="buttonsContainer "
+  >
+    <button
+      className="buttonMinus"
+      onClick={[Function]}
+    >
+      -
+    </button>
+    <div
+      className="countLabel"
+    >
+      0
+    </div>
+    <button
+      className="buttonAdd false"
+      disabled={false}
+      onClick={[Function]}
+    >
+      +
+    </button>
+  </div>
+</div>
+`;

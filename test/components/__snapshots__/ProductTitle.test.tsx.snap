@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProductTitle should show custom title 1`] = `
+<span
+  className="productDescription hello-world"
+>
+  Custom title
+</span>
+`;
+
+exports[`ProductTitle should show product object title  1`] = `
+<div
+  className="productCard "
+>
+  <span
+    className="productDescription "
+  >
+    Product title - Hellow
+  </span>
+</div>
+`;
