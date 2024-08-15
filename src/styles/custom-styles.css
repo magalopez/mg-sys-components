@@ -1,0 +1,61 @@
+.bg-dark {
+  background-color: rgb(56,56,56);
+}
+
+.text-white {
+  color: white;
+}
+
+.text-bold {
+  font-weight: bold;
+}
+
+.custom-img {
+  padding: 10px;
+  width: calc(100% - 20px);
+  border-radius: 16px;
+}
+
+.custom-buttons button, .custom-buttons div {
+  color: white;
+  border-color: white;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+.shopping-cart {
+  position: fixed;
+  right: 24px;
+  top: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: end;
+}
+
+.card-img-shopping-cart {
+  width: 40px;
+  border-radius: 0;
+}
+
+.card-shopping-cart {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 16px;
+  width: fit-content;
+}
+
+.title-shopping-cart {
+  font-size: 12px;
+  margin: 8px;
+  width: 60px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
